@@ -14,6 +14,10 @@ import com.opencsv.CSVWriter;
 public class CSVProcessor {
 
 	public static void main(String[] args) throws IOException {
+		
+	}
+	
+	public static void doesSomethingForPostcodes() throws IOException {
 		Scanner reader = new Scanner(System.in);
 		System.out.println("What country would you like the postcodes for? ");
 		String country = reader.nextLine();
